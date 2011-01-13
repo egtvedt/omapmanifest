@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="git://android.git.kernel.org/" name="korg" review="review.source.android.com"/>
   <remote fetch="git://git.omapzoom.org/" name="omap-mirror" review="review.omapzoom.org"/>
+  <remote fetch="git://gitorious.org/" name="blazetablet"/>    
   
   <default remote="omap-mirror" revision="p-gingerbread"/>
   
@@ -14,6 +15,7 @@
   <project name="device/ti/blaze" revision="7ae7e53b36f4618b32f4c53eb659a98b4d8ad729"/>
   <project name="device/ti/proprietary-open" revision="62429839ef9fbfdf5c58e5d314cde36637625aaf"/>
   <project name="device/ti/zoom2" revision="4cc32aa4644d7b8cfcff369251ceee88a71b474e"/>
+  <project name="blazetablet/device-ti-blazetablet" path="device/ti/blazetablet" remote="blazetablet" revision="refs/tags/BT_L27.12.1P1"/>
   <project name="platform/bionic" path="bionic" revision="5d3404c49ca594657596ea12c8d57485bc4922e1"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="53bd9111b5ae1fc1180ec13755d9830f7cadacf5"/>
@@ -122,7 +124,7 @@
   <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="a162c4351926285892214b0726aaf07f0631dc72"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="36fb5888a17a2d1ca69c7c2e2d378127f354153b"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="aea7d5beb2d2cc4d49954f9d5158b8a53c3d7d31"/>
-  <project name="platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="34954ba4845bf07210eaeecc1ff64651f47476e3"/>
+  <project name="blazetablet/hardware-ti-omap3" path="hardware/ti/omap3" remote="blazetablet" revision="refs/tags/BT_L27.12.1P1"/>
   <project name="platform/hardware/ti/omx" path="hardware/ti/omx" revision="7f433ffd33d6f0f7d55b4926f1137d86c634c317"/>
   <project name="platform/hardware/ti/syslink" path="hardware/ti/syslink" revision="0697403597787f560ff8f7ae24b755e800a1617c"/>
   <project name="platform/hardware/ti/tiler" path="hardware/ti/tiler" revision="893ef237b5da6c33742639d3d9b67a27fcc03775"/>
