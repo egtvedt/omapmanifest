@@ -145,7 +145,7 @@
   <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="58f759f4f230527e15c25da067ca24fdba9d75b9"/>
   <project name="platform/packages/apps/Gallery3D" path="packages/apps/Gallery3D" revision="6c7b576309625f42ec162be79541bb5068dbae0b"/>
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="79753f3bee4b17087936543e899dc2af9a3d04b9"/>
-  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="f7be630c94a9a5bfd8992d5b538f81a8e894b552"/>
+  <project name="blazetablet/packages-apps-Launcher2" path="packages/apps/Launcher2" remote="blazetablet" revision="refs/tags/BT_L27.12.1P1"/>
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="d114fd946efef5daa56246a5deabb4ccbef8e74f"/>
   <project name="platform/packages/apps/Music" path="packages/apps/Music" revision="6f30d9366a1a9cf79d4db5b8bf3205184861de16"/>
   <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" revision="bd555ee64250126b60b24814120a2049943920ca"/>
